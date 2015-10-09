@@ -8,7 +8,7 @@ game.CapGuyEntity = me.Entity.extend({
     init: function (x, y) {
 
         // call the super constructor
-        this._super(me.Entity, "init", [-200, 50, {width : 100, height : 300}]);
+        this._super(me.Entity, "init", [-200, 140, {width : 100, height : 300}]);
 
         // create an animation using the cap guy sprites, and add as renderable
         this.renderable = game.texture.createAnimationFromName([
