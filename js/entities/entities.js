@@ -8,7 +8,7 @@ game.CapGuyEntity = me.Entity.extend({
     init: function (x, y) {
 
         // call the super constructor
-        this._super(me.Entity, "init", [-200, 50, {width : 100, height : 300}]);
+        this._super(me.Entity, "init", [-200, 140, {width : 100, height : 300}]);
 
         // create an animation using the cap guy sprites, and add as renderable
         this.renderable = game.texture.createAnimationFromName([
@@ -28,7 +28,7 @@ game.CapGuyEntity = me.Entity.extend({
     update : function (dt) {
 
         // just manually change the guy position
-        this.pos.x += 5;
+        this.pos.x += 0.3*dt;
         
         // repeat once leaving the viewport
         if (this.pos.x >= me.game.viewport.width) {
