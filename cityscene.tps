@@ -4,9 +4,9 @@
         <key>fileFormatVersion</key>
         <int>3</int>
         <key>texturePackerVersion</key>
-        <string>4.0.0b1</string>
+        <string>4.0.1</string>
         <key>fileName</key>
-        <string>/Users/sk/Programming/texturepacker-melonjs/assets/cityscene.tps</string>
+        <string>/Users/sk/Programming/_test_and_tutorials/texturepacker-melonjs/cityscene.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -147,7 +147,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../data/img/cityscene.json</filename>
+                <filename>demo/data/img/cityscene.json</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -192,6 +192,7 @@
         </struct>
         <key>fileList</key>
         <array>
+            <filename>cityscene</filename>
             <filename>cityscene</filename>
         </array>
         <key>ignoreFileList</key>
