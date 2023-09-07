@@ -1,17 +1,17 @@
-# MelonJS Sprite Sheet Tutorial Source
+# Using sprite sheets in melonJS
 
-A simple project showing how to use sprite sheets and animations in MelonJS.
+A simple project showing how to use sprite sheets and animations in melonJS.
+
+A complete tutorial is available here: [Using sprite sheets in melonJS](https://www.codeandweb.com/texturepacker/tutorials/using-sprite-sheets-with-melonjs-tutorial)
 
 ## Tutorial Content
 
-* Learn why you should use sprite sheets in your MelonJS game
+* Learn why you should use sprite sheets in your melonJS game
 * Use TexturePacker to create a sprite sheet
 * Optimize the sprite sheet: Faster startup for your game
 * Use static images (background)
 * Use animations
 
-The complete tutorial is available from here: [MelonJS Sprite Sheet Tutorial](https://www.codeandweb.com/blog/2015/11/08/using-sprite-sheets-with-melonjs-tutorial)
-
-<a href="https://www.codeandweb.com/blog/2015/11/08/using-sprite-sheets-with-melonjs-tutorial" rel="Tutorial">
+<a href="https://www.codeandweb.com/texturepacker/tutorials/using-sprite-sheets-with-melonjs-tutorial" rel="Tutorial">
 ![screenshot](screenshot.png "Screenshot of the demo project")
 </a>
