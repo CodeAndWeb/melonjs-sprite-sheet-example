@@ -2,16 +2,16 @@
 
 {
 	"filename": "background",
-	"frame": {"x":1,"y":1,"w":2044,"h":1536},
+	"frame": {"x":1,"y":1,"w":2000,"h":1300},
 	"rotated": false,
 	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":2044,"h":1536},
-	"sourceSize": {"w":2044,"h":1536},
+	"spriteSourceSize": {"x":0,"y":0,"w":2000,"h":1300},
+	"sourceSize": {"w":2000,"h":1300},
 	"pivot": {"x":0.5,"y":0.5}
 },
 {
 	"filename": "capguy/turn/0001",
-	"frame": {"x":334,"y":1539,"w":167,"h":302},
+	"frame": {"x":334,"y":1303,"w":167,"h":302},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":20,"y":11,"w":167,"h":302},
@@ -20,7 +20,7 @@
 },
 {
 	"filename": "capguy/turn/0002",
-	"frame": {"x":1259,"y":1539,"w":141,"h":306},
+	"frame": {"x":1259,"y":1303,"w":141,"h":306},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":38,"y":5,"w":141,"h":306},
@@ -29,7 +29,7 @@
 },
 {
 	"filename": "capguy/turn/0003",
-	"frame": {"x":1682,"y":1670,"w":126,"h":312},
+	"frame": {"x":1682,"y":1434,"w":126,"h":312},
 	"rotated": true,
 	"trimmed": true,
 	"spriteSourceSize": {"x":30,"y":0,"w":126,"h":312},
@@ -38,7 +38,7 @@
 },
 {
 	"filename": "capguy/turn/0004",
-	"frame": {"x":1682,"y":1539,"w":129,"h":314},
+	"frame": {"x":1682,"y":1303,"w":129,"h":314},
 	"rotated": true,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":0,"w":129,"h":314},
@@ -47,7 +47,7 @@
 },
 {
 	"filename": "capguy/turn/0005",
-	"frame": {"x":1682,"y":1798,"w":129,"h":300},
+	"frame": {"x":1682,"y":1562,"w":129,"h":300},
 	"rotated": true,
 	"trimmed": true,
 	"spriteSourceSize": {"x":11,"y":13,"w":129,"h":300},
@@ -56,7 +56,7 @@
 },
 {
 	"filename": "capguy/turn/0006",
-	"frame": {"x":817,"y":1539,"w":151,"h":307},
+	"frame": {"x":817,"y":1303,"w":151,"h":307},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":5,"w":151,"h":307},
@@ -65,7 +65,7 @@
 },
 {
 	"filename": "capguy/walk/0001",
-	"frame": {"x":503,"y":1539,"w":158,"h":316},
+	"frame": {"x":503,"y":1303,"w":158,"h":316},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":15,"y":3,"w":158,"h":316},
@@ -74,7 +74,7 @@
 },
 {
 	"filename": "capguy/walk/0002",
-	"frame": {"x":164,"y":1539,"w":168,"h":303},
+	"frame": {"x":164,"y":1303,"w":168,"h":303},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":8,"w":168,"h":303},
@@ -83,7 +83,7 @@
 },
 {
 	"filename": "capguy/walk/0003",
-	"frame": {"x":663,"y":1539,"w":152,"h":307},
+	"frame": {"x":663,"y":1303,"w":152,"h":307},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":26,"y":2,"w":152,"h":307},
@@ -92,7 +92,7 @@
 },
 {
 	"filename": "capguy/walk/0004",
-	"frame": {"x":1402,"y":1539,"w":141,"h":306},
+	"frame": {"x":1402,"y":1303,"w":141,"h":306},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":42,"y":1,"w":141,"h":306},
@@ -101,7 +101,7 @@
 },
 {
 	"filename": "capguy/walk/0005",
-	"frame": {"x":1118,"y":1539,"w":139,"h":311},
+	"frame": {"x":1118,"y":1303,"w":139,"h":311},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":33,"y":3,"w":139,"h":311},
@@ -110,7 +110,7 @@
 },
 {
 	"filename": "capguy/walk/0006",
-	"frame": {"x":1545,"y":1539,"w":135,"h":311},
+	"frame": {"x":1545,"y":1303,"w":135,"h":311},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":29,"y":8,"w":135,"h":311},
@@ -119,7 +119,7 @@
 },
 {
 	"filename": "capguy/walk/0007",
-	"frame": {"x":970,"y":1539,"w":146,"h":314},
+	"frame": {"x":970,"y":1303,"w":146,"h":314},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":32,"y":2,"w":146,"h":314},
@@ -128,7 +128,7 @@
 },
 {
 	"filename": "capguy/walk/0008",
-	"frame": {"x":1,"y":1539,"w":161,"h":319},
+	"frame": {"x":1,"y":1303,"w":161,"h":319},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":22,"y":1,"w":161,"h":319},
@@ -140,8 +140,8 @@
 	"version": "1.0",
 	"image": "cityscene.png",
 	"format": "RGBA8888",
-	"size": {"w":2046,"h":1928},
+	"size": {"w":2002,"h":1692},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:18c7e4b5fdf147676f7d4cf33d693be3:618ef5c32c206fc60127e78c3f4beb70:292542e6853f316339413b9243f95b10$"
+	"smartupdate": "$TexturePacker:SmartUpdate:5feb2bcf4eb0c311f8b3da20be1bae63:b79aa71f3210f779635b174b7807324d:292542e6853f316339413b9243f95b10$"
 }
 }

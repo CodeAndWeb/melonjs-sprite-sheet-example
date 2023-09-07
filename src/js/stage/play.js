@@ -25,7 +25,7 @@ class PlayScreen extends Stage {
         // add sprite to the scene
         game.world.addChild(background, 1);
 
-        const capguy = new PlayerEntity(w/2, h*0.8, atlas);
+        const capguy = new PlayerEntity(w/2, h*0.9, atlas);
         game.world.addChild(capguy, 2);
     }
 };
