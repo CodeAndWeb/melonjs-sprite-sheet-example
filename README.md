@@ -12,6 +12,4 @@ A complete tutorial is available here: [Using sprite sheets in melonJS](https://
 * Use static images (background)
 * Use animations
 
-<a href="https://www.codeandweb.com/texturepacker/tutorials/using-sprite-sheets-with-melonjs-tutorial" rel="Tutorial">
-![screenshot](screenshot.png "Screenshot of the demo project")
-</a>
+![Screenshot of the demo project"](screenshot.png)
