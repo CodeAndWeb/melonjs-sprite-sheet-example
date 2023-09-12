@@ -9,20 +9,24 @@ class PlayerEntity extends Entity {
         // call the parent constructor
         super(x, y, { width: 210, height: 330 });
 
-        // create animated sprite, specify all used animation frames
-        this.renderable = atlas.createAnimationFromName([
+        const walkFrames = [
             "capguy/walk/0001", "capguy/walk/0002",
             "capguy/walk/0003", "capguy/walk/0004",
             "capguy/walk/0005", "capguy/walk/0006",
-            "capguy/walk/0007", "capguy/walk/0008",
+            "capguy/walk/0007", "capguy/walk/0008"
+        ];
+        const turnFrames = [
             "capguy/turn/0001", "capguy/turn/0002",
             "capguy/turn/0003", "capguy/turn/0004",
             "capguy/turn/0005", "capguy/turn/0006"
-        ]);
+        ];
+
+        // create animated sprite, specify all used animation frames
+        this.renderable = atlas.createAnimationFromName([...walkFrames, ...turnFrames]);
 
         // define animations, pass frames to be used in each animation
-        this.renderable.addAnimation("walk", [0,1,2,3,4,5,6,7], 125);
-        this.renderable.addAnimation("turn", [8,9,10,11,12,13], 125);
+        this.renderable.addAnimation("walk", walkFrames, 125);
+        this.renderable.addAnimation("turn", turnFrames, 125);
         this.renderable.setCurrentAnimation("walk");
 
         this.body.setStatic(true);
