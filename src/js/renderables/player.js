@@ -1,4 +1,4 @@
-import {Entity, game} from "melonjs";
+import {Entity, game, loader} from "melonjs";
 
 class PlayerEntity extends Entity {
 
@@ -9,17 +9,9 @@ class PlayerEntity extends Entity {
         // call the parent constructor
         super(x, y, { width: 210, height: 330 });
 
-        const walkFrames = [
-            "capguy/walk/0001", "capguy/walk/0002",
-            "capguy/walk/0003", "capguy/walk/0004",
-            "capguy/walk/0005", "capguy/walk/0006",
-            "capguy/walk/0007", "capguy/walk/0008"
-        ];
-        const turnFrames = [
-            "capguy/turn/0001", "capguy/turn/0002",
-            "capguy/turn/0003", "capguy/turn/0004",
-            "capguy/turn/0005", "capguy/turn/0006"
-        ];
+        const animations = loader.getJSON("cityscene").animations;
+        const walkFrames = animations["capguy/walk"];
+        const turnFrames = animations["capguy/turn"];
 
         // create animated sprite, specify all used animation frames
         this.renderable = atlas.createAnimationFromName([...walkFrames, ...turnFrames]);

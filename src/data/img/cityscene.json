@@ -135,6 +135,10 @@
 	"sourceSize": {"w":187,"h":324},
 	"pivot": {"x":0.5,"y":1}
 }],
+"animations": {
+	"capguy/turn": ["capguy/turn/0001","capguy/turn/0002","capguy/turn/0003","capguy/turn/0004","capguy/turn/0005","capguy/turn/0006"],
+	"capguy/walk": ["capguy/walk/0001","capguy/walk/0002","capguy/walk/0003","capguy/walk/0004","capguy/walk/0005","capguy/walk/0006","capguy/walk/0007","capguy/walk/0008"]
+},
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
@@ -142,6 +146,6 @@
 	"format": "RGBA8888",
 	"size": {"w":2002,"h":1692},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:5feb2bcf4eb0c311f8b3da20be1bae63:b79aa71f3210f779635b174b7807324d:292542e6853f316339413b9243f95b10$"
+	"smartupdate": "$TexturePacker:SmartUpdate:29acd6ec97a98680d018ffb65a54c0a3:b79aa71f3210f779635b174b7807324d:292542e6853f316339413b9243f95b10$"
 }
 }
