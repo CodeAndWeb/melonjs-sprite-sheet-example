@@ -1,0 +1,80 @@
+{"frames": [
+
+{
+	"filename": "background",
+	"frame": {"x":1,"y":1,"w":2000,"h":1300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":2000,"h":1300},
+	"sourceSize": {"w":2000,"h":1300},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "capguy/turn/0001",
+	"frame": {"x":306,"y":1303,"w":167,"h":302},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":11,"w":167,"h":302},
+	"sourceSize": {"w":207,"h":329},
+	"pivot": {"x":0.5,"y":1}
+},
+{
+	"filename": "capguy/turn/0006",
+	"frame": {"x":1558,"y":1303,"w":151,"h":307},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":151,"h":307},
+	"sourceSize": {"w":207,"h":329},
+	"pivot": {"x":0.5,"y":1}
+},
+{
+	"filename": "capguy/walk/0001",
+	"frame": {"x":931,"y":1303,"w":158,"h":316},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":3,"w":158,"h":316},
+	"sourceSize": {"w":187,"h":324},
+	"pivot": {"x":0.5,"y":1}
+},
+{
+	"filename": "capguy/walk/0002",
+	"frame": {"x":1,"y":1303,"w":168,"h":303},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":168,"h":303},
+	"sourceSize": {"w":187,"h":324},
+	"pivot": {"x":0.5,"y":1}
+},
+{
+	"filename": "capguy/walk/0003",
+	"frame": {"x":1249,"y":1303,"w":152,"h":307},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":2,"w":152,"h":307},
+	"sourceSize": {"w":187,"h":324},
+	"pivot": {"x":0.5,"y":1}
+},
+{
+	"filename": "capguy/walk/0008",
+	"frame": {"x":610,"y":1303,"w":161,"h":319},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":1,"w":161,"h":319},
+	"sourceSize": {"w":187,"h":324},
+	"pivot": {"x":0.5,"y":1}
+}],
+"animations": {
+	"capguy/turn": ["capguy/turn/0001","capguy/turn/0002","capguy/turn/0003","capguy/turn/0004","capguy/turn/0005","capguy/turn/0006"],
+	"capguy/walk": ["capguy/walk/0001","capguy/walk/0002","capguy/walk/0003","capguy/walk/0004","capguy/walk/0005","capguy/walk/0006","capguy/walk/0007","capguy/walk/0008"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "cityscene-0.png",
+	"format": "RGBA8888",
+	"size": {"w":2002,"h":1472},
+	"scale": "1",
+	"related_multi_packs": [ "cityscene-1.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:fc07f7cbb2cc3bd86ac30bdf41cfbb0e:b79aa71f3210f779635b174b7807324d:d89e340a97368057fe803a8e88e6a78e$"
+}
+}

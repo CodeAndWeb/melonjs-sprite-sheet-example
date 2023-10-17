@@ -9,7 +9,7 @@ class PlayScreen extends Stage {
 
         // load the texture atlas file
         const atlas = new TextureAtlas(
-            loader.getJSON("cityscene")
+            [ loader.getJSON("cityscene-0"), loader.getJSON("cityscene-1") ]
         );
 
         // viewport width and height

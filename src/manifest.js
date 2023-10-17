@@ -14,8 +14,11 @@ const DataManifest = [
         src: "./data/fnt/PressStart2P.fnt"
     },
 
-    { name: "cityscene", type: "json",  src: "data/img/cityscene.json" },
-    { name: "cityscene", type: "image", src: "data/img/cityscene.png" }
+    { name: "cityscene-0", type: "json",  src: "data/img/cityscene-0.json" },
+    { name: "cityscene-0", type: "image", src: "data/img/cityscene-0.png" },
+    { name: "cityscene-1", type: "json",  src: "data/img/cityscene-1.json" },
+    { name: "cityscene-1", type: "image", src: "data/img/cityscene-1.png" }
+
 ];
 
 export default DataManifest;

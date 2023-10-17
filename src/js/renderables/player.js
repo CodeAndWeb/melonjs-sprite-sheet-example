@@ -9,7 +9,7 @@ class PlayerEntity extends Entity {
         // call the parent constructor
         super(x, y, { width: 210, height: 330 });
 
-        const animations = loader.getJSON("cityscene").animations;
+        const animations = loader.getJSON("cityscene-0").animations; // animations are exported to first multi-pack file
         const walkFrames = animations["capguy/walk"];
         const turnFrames = animations["capguy/turn"];
 

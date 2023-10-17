@@ -4,7 +4,7 @@
         <key>fileFormatVersion</key>
         <int>6</int>
         <key>texturePackerVersion</key>
-        <string>7.1.0</string>
+        <string>7.0.3</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -82,7 +82,7 @@
             <key>width</key>
             <int>2048</int>
             <key>height</key>
-            <int>2048</int>
+            <int>1500</int>
         </QSize>
         <key>fixedTextureSize</key>
         <QSize>
@@ -124,11 +124,11 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>../src/data/img/cityscene.json</filename>
+                <filename>../src/data/img/cityscene-{n}.json</filename>
             </struct>
         </map>
         <key>multiPackMode</key>
-        <enum type="SettingsBase::MultiPackMode">MultiPackOff</enum>
+        <enum type="SettingsBase::MultiPackMode">MultiPackAuto</enum>
         <key>forceIdenticalLayout</key>
         <false/>
         <key>outputFormat</key>
